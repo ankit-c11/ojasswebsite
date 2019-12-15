@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/logo.png" type="image" sizes="40px">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  
+  <link href="https://fonts.googleapis.com/css?family=Jura|Rock+Salt" rel="stylesheet">
     <link rel ="stylesheet" href= "css/style.css">
     <link rel ="stylesheet" href= "css/bootstrap.min.css">
     <link rel="stylesheet" href="css/loader.css" />
     <script type ="text/javascript" src ="js/jquery.js"></script>
     <script type ="text/javascript" src ="js/index.js"></script>
     
-    <title>Document</title>
+    <title>OJASS'20</title>
 </head>
 <body style="margin-left:-4%;">
-<!--loader
+<!--loader-->
 <div id="loader-wrapper" style="overflow: hidden">
         <div id="main-loader">
             <div class="ring el-1"></div>
@@ -50,26 +54,20 @@
             </div>
         </div>
         <div id="oasis-date">
-            19<sup>th</sup> Oct - 23<sup>rd</sup> Oct
+        Epyllion De Science
         </div>
     </div>
-
-loader ends-->
 <div class="card-menu">
   <div class="card-menu-close-menu"></div>
-  <!-- <img src ="images/logo.png" width ="50" height ="50" style ="margin-left:20%;"> -->
   <div class="card-menu-section card-menu-section-1 active" data-section="1">
     <div class="card-menu-menu-btn"></div>
     <h2 class="card-menu-section-heading"><img src ="images/logo.png" width ="50" height ="50" style ="margin-top:-5%;">&nbsp;&nbsp;&nbsp;HOME</h2>
-    <?php// include_once 'team.php';?>
+    <?php include_once 'home.php';?>
   </div>
   <div class="card-menu-section card-menu-section-2 inactive" data-section="2">
     <div class="card-menu-menu-btn"></div>
     <h2 class="card-menu-section-heading"><img src ="images/logo.png" width ="50" height ="50" style ="margin-top:-5%;">&nbsp;&nbsp;&nbsp;EVENTS</h2>
-    <div class ="row">
-    <!-- <div class ="col-sm-12 faq" style ="background-color:yellow;">bfkjb</div>
-    <div class ="col-sm-12 faq" style ="background-color:yellow;">fgnkjf</div> -->
-    </div>
+    
   </div>
   <div class="card-menu-section card-menu-section-3 inactive" data-section="3">
     <div class="card-menu-menu-btn"></div>
@@ -79,6 +77,8 @@ loader ends-->
   <div class="card-menu-section card-menu-section-4 inactive" data-section="4">
     <div class="card-menu-menu-btn"></div>
     <h2 class="card-menu-section-heading"><img src ="images/logo.png" width ="50" height ="50" style ="margin-top:-5%;">&nbsp;&nbsp;&nbsp;SPONSORS</h2>
+    <div class = "faq"> <?php include_once 'sponsor.php';?></div>
+ 
   </div>
   <div class="card-menu-section card-menu-section-5 inactive" data-section="5">
     <div class="card-menu-menu-btn"></div>
@@ -99,6 +99,13 @@ loader ends-->
 <script type = "text/javascript" src="js/main.js"></script>
 <script>
   
+  $(document).ready(function() {
+window.onload = function () {
+$('#loader-wrapper').fadeOut(3000, function(){ $('#loader-wrapper').remove(); } );
+}
+});
+
+
   </script>
 </body>
 </html>

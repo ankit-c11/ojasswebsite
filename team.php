@@ -1,5 +1,5 @@
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- Bootstrap CSS -->
     <!-- <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css"> -->
@@ -941,8 +941,8 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
     <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
 
-    <script type="text/javascript" src="particles.js"></script>
-    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="js/particles.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
   </body>
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>

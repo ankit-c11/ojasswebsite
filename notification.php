@@ -54,5 +54,5 @@
           </div>
 </div>
           <br>
-<!-- <button class ="btn btn-success"><a href  ="notification.php" target="_blank">notification</a></button> -->
-<!-- <script type = "text/javascript" src ="script.js"></script> -->
+          <?php include_once 'footer.php'?>
+
