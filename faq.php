@@ -1,6 +1,6 @@
 
 <body>
-<link rel = "stylesheet" href = "style1.css">
+<link rel = "stylesheet" href = "css/style1.css">
 <div class="row-fn">
           <div class="col">
             <h2>FAQs</b></h2>

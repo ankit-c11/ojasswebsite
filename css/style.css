@@ -11,6 +11,8 @@
 
 .card-menu-section-6 {  background: linear-gradient(to bottom, #800000 0%, #cc9900 100%);}
 
+.card-menu-section-7 {  background:purple;}
+
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
@@ -19,6 +21,7 @@
 
 body { background: #1C182F;
        font-family: 'Roboto Condensed', sans-serif;
+       overflow:hidden;
     }
 
 .card-menu {
@@ -52,11 +55,13 @@ body { background: #1C182F;
 .card-menu-close-menu:before {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
+  cursor:pointer;
 }
 
 .card-menu-close-menu:after {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
+  cursor:pointer;
 }
 
 .card-menu-section {
@@ -135,6 +140,16 @@ body { background: #1C182F;
   -webkit-transform: translate3d(100%, 360px, 0);
   transform: translate3d(100%, 360px, 0);
 }
+
+.card-menu.menu-active .card-menu-section-7 {
+  -webkit-transform: translate3d(0px, 420px, 0);
+  transform: translate3d(0px, 420px, 0);
+}
+
+.card-menu-section-7.inactive {
+  -webkit-transform: translate3d(100%, 420px, 0);
+  transform: translate3d(100%, 420px, 0);
+}
 .card-menu.menu-active .card-menu-section { cursor: pointer; }
 
 .card-menu-section-1 .card-menu-section-heading, .card-menu-section-1 .card-menu-menu-btn:before { color: #E57B60; }
@@ -195,7 +210,132 @@ body { background: #1C182F;
   margin-left:-10%;
 }
 
+/*navbar ends*/
 
 
 
+/*team starts*/
+
+.back {
+	background-color: black;
+	/*overflow: hidden;*/
+}
+
+
+.color {
+	color: white;
+}
+
+#h {
+	color: white;
+	margin-top: 30px;
+	margin-left: 40px;
+	font-size: 3.5em;
+}
+
+#cls {
+	background-color: grey;
+	/*margin-right: 100px;*/
+}
+
+.jumbotron {
+	margin-top: 10px;
+	margin-left: 55px;
+}
+
+.card {
+	margin: 100px 0;
+	background-color: #eee;
+	cursor: pointer;
+	text-align: center;
+	width: 100%;
+	border: none;
+	outline: none;
+	transition: 0.45sec;
+}
+
+#size {
+	font-size: 40px;
+	/*margin: 40px;*/
+	margin: 30px;
+	background-color: grey;
+	color: white;
+}
+
+.modal {
+  text-align: center;
+}
+
+/*@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}*/
+
+.modal-dialog {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  background-color: black;
+}
+
+#head {
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+	border: none;
+	color: white;
+}
+
+.modal-body {
+	text-align: center;
+	background-color: black;
+	border: none;
+}
+
+.modal-footer {
+	text-align: center;
+	background-color: black;
+	border: none;
+}
+
+
+h3 {
+	color: red;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+h4 {
+	font-size: 2rem;
+	height: 40px;
+	margin-bottom: 60px;
+}
+
+p {
+	color: white;
+	text-align: center;
+}
+
+.card-body {
+	background-color: black;
+}
+
+.card {
+	border: none;
+	width: 100%;
+
+}
+
+.carousel-indicators {
+	margin-top: 3px;
+}
+
+button {
+	width: 100%;
+	
+}
 

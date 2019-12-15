@@ -2,7 +2,7 @@
 //include_once 'header.php';
 ?>
 <body>
-<link rel = "stylesheet" href = "style1.css">
+<link rel = "stylesheet" href = "css/style1.css">
     <!-- <div id = "blank" style  ="width:100%;height:50px;"></div> -->
 <div class="row-fn">
           <div class="col">
