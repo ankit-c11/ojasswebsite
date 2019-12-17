@@ -83,7 +83,8 @@
 			<h4>Masood Masu, EE</h4>
 		</div>
 	</div>
-</body><script type="text/javascript">
+</body>
+<script type="text/javascript">
 	AOS.init({
   	duration:1200,
   });

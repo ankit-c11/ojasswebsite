@@ -18,7 +18,7 @@
 </head>
 <body style="margin-left:-4%;">
 <!--loader-->
-<div id="loader-wrapper" style="overflow: hidden">
+<!-- <div id="loader-wrapper" style="overflow: hidden">
         <div id="main-loader">
             <div class="ring el-1"></div>
             <div class="ring el-2"></div>
@@ -48,15 +48,15 @@
                     <li class="oasis-li li-7">2</li>
                     <li class="oasis-li li-8">0</li>
                 </ul>
-            </div>
+            </div> -->
             <!-- <div id="oasis-slogan">
                 Epyllion De Science
             </div> -->
-        </div>
+        <!-- </div>
         <div id="oasis-date">
         Epyllion De Science
         </div>
-    </div>
+    </div> -->
 <div class="card-menu">
   <div class="card-menu-close-menu"></div>
   <div class="card-menu-section card-menu-section-1 active" data-section="1">
@@ -101,7 +101,7 @@
   
   $(document).ready(function() {
 window.onload = function () {
-$('#loader-wrapper').fadeOut(2000, function(){ $('#loader-wrapper').remove(); } );
+$('#loader-wrapper').fadeOut(4000, function(){ $('#loader-wrapper').remove(); } );
 }
 });
 
