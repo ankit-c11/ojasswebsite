@@ -6,7 +6,26 @@
   
   
   
-  <div><h1>OJASS'20</h1></div><br>
+  <div><h1>OJASS'20</h1></div>
+<h1 id="demo" ></h1>
+
+<p class= "about">
+Ojass is the annual techno-management fest of NIT Jamshedpur. Started in the year 2004, Ojass assembles a wide range of events comprising every genre of engineering, management and even film-making with the aim to foster and boost cogent engineering practices in the nation and stimulate the future generation to dream big. Certified Workshops in diversed fields are conducted every year before the fest to help students understand the different technology trends in the market. A three-day spectacle, Ojass also organizes many motivating guest lectures under the event cluster "Guru Gyan". Since its inception, Ojass has been receiving immense participation from the student community from all over India with the 2018 edition accounting for over 4000 participants. The prize money for this edition was ₹18 Lac. OJASS 19 is slated to kick-off from 5th April 2019 and the grandeur will prevail for the next two days. Save these dates, for we are all set to make it Bigger and Better, than ever!
+</p>
+<script>
+var i = 0;
+var txt = 'Epyillion De Science';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+typeWriter();
+</script>
   <!--footer-->
   <div class="container-fluid text-center footer" style="background:#514e56bd;margin-left:-15%;margin-top:10%;overflow:hidden;">
     <footer style="padding-top: 10px;">
@@ -32,7 +51,7 @@
             <a href="https://www.youtube.com/user/ojassnitjsr" class="fa fa-youtube-square" style="font-size: 36px; margin-left: 12px;color:white !important" target="_blank"></a>
             <a href="https://www.instagram.com/ojass_techfest/" class="fa fa-instagram" style="font-size: 36px; margin-left: 12px;color:white !important" target="_blank"></a>
             
-            <p style="font-size: 14px; margin: 0; padding: 10px 0;"> <a class="text-light" style="text-decoration:none;color:white" href="developers.php">© Ojass Web Team</a> </p>
+            <p style="font-size: 14px; margin: 0; padding: 10px 0;"> <a class="text-light" style="text-decoration:none;color:white" href="developers.php" target= "_blank">© Ojass Web Team</a> </p>
 
         </center>
     </footer>

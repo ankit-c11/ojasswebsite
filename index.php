@@ -49,9 +49,9 @@
                     <li class="oasis-li li-8">0</li>
                 </ul>
             </div>
-            <div id="oasis-slogan">
+            <!-- <div id="oasis-slogan">
                 Epyllion De Science
-            </div>
+            </div> -->
         </div>
         <div id="oasis-date">
         Epyllion De Science
@@ -62,7 +62,7 @@
   <div class="card-menu-section card-menu-section-1 active" data-section="1">
     <div class="card-menu-menu-btn"></div>
     <h2 class="card-menu-section-heading"><img src ="images/logo.png" width ="50" height ="50" style ="margin-top:-5%;">&nbsp;&nbsp;&nbsp;HOME</h2>
-    <?php include_once 'home.php';?>
+    <div class = "faq"> <?php include_once 'home.php';?></div>
   </div>
   <div class="card-menu-section card-menu-section-2 inactive" data-section="2">
     <div class="card-menu-menu-btn"></div>
@@ -101,7 +101,7 @@
   
   $(document).ready(function() {
 window.onload = function () {
-$('#loader-wrapper').fadeOut(3000, function(){ $('#loader-wrapper').remove(); } );
+$('#loader-wrapper').fadeOut(2000, function(){ $('#loader-wrapper').remove(); } );
 }
 });
 
