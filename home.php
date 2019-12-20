@@ -18,7 +18,7 @@
   </style>
   <div class ="head">OJASS'20</div>
   <center>
-<div id ="subhead">Epyillion De Science</div>
+<div id ="subhead">INDIC ERUDITION</div>
 </center>
 <h2><center><u>ABOUT</u><center></h2>
 <p class= "about">
