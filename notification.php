@@ -6,7 +6,7 @@
     <!-- <div id = "blank" style  ="width:100%;height:50px;"></div> -->
 <div class="row-fn">
           <div class="col">
-            <h2>NOTIFICATIONS</b></h2>
+            <h2 style ="font-family:algerian">NOTIFICATIONS</b></h2>
             <div class="tabs">
               <div class="tab">
                 <input type="checkbox" id="chck1">

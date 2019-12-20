@@ -13,7 +13,7 @@
 <div class="row">
 
 			<div class="col-md-12" data-aos="zoom-in">
-			<h2 class="text-center" ><span class="page_title" style="color:white; font-family:times new roman;font-size:50px;text-decoration: underline;">SPONSORS</span></h2>
+			<h2 class="text-center" ><span class="page_title" style="color:white; font-family:algerian;font-size:50px;text-decoration: underline;">SPONSORS</span></h2>
 			</div>
 </div>
 

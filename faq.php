@@ -3,7 +3,7 @@
 <link rel = "stylesheet" href = "css/style1.css">
 <div class="row-fn">
           <div class="col">
-            <h2>FAQs</b></h2>
+            <h2 style ="font-family:algerian">FAQs</b></h2>
             <div class="tabs">
               <div class="tab">
                 <input type="checkbox" id="chck7">

@@ -1,6 +1,6 @@
   <style>
   #subhead{
-    font-size:40px;
+    font-size:25px;
     color:brown;
     display:inline-block;
   }
@@ -18,11 +18,7 @@
   </style>
   <div class ="head">OJASS'20</div>
   <center>
-<span id ="subhead">I</span>
-<span id ="subhead">N</span>
-<span id ="subhead">D</span>
-<span id ="subhead">I</span>
-<span id ="subhead">C</span>
+<div id ="subhead">Epyillion De Science</div>
 </center>
 <h2><center><u>ABOUT</u><center></h2>
 <p class= "about">
@@ -30,7 +26,7 @@ Ojass is the annual techno-management fest of NIT Jamshedpur. Started in the yea
 </p>
 
   <!--footer-->
-  <div class="container-fluid text-center footer" style="background:#514e56bd;margin-left:-15%;margin-top:10%;overflow:hidden;">
+  <div class="container-fluid text-center footer" style="background:#514e56bd;margin-left:-5%;margin-top:10%;overflow:hidden;">
     <footer style="padding-top: 10px;">
 
         <div class="row ">

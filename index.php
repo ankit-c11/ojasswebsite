@@ -57,6 +57,7 @@
         Epyllion De Science
         </div>
     </div> -->
+    <?php include_once 'timer.php'; ?>
 <div class="card-menu">
   <div class="card-menu-close-menu"></div>
   <div class="card-menu-section card-menu-section-1 active" data-section="1">
@@ -90,11 +91,7 @@
     <h2 class="card-menu-section-heading" style="color:yellow"><img src ="images/logo.png" width ="50" height ="50" style ="margin-top:-5%;">&nbsp;&nbsp;&nbsp;TEAM</h2>
     <div class = "faq"> <?php// include_once 'team.php';?></div>
   </div>
-  <!-- <div class="card-menu-section card-menu-section-7 inactive" data-section="7">
-    <div class="card-menu-menu-btn"></div>
-    <h2 class="card-menu-section-heading" style="color:yellow">DEVELOPER</h2>
-    <div class = "faq"> <?php// include_once 'developers.php';?></div>
-  </div> -->
+
 </div>
 <script type = "text/javascript" src="js/main.js"></script>
 <script>
